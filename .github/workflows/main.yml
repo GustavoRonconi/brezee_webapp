@@ -59,7 +59,7 @@ jobs:
 
       # Invalidate index file in Cloudfront (this forces edges to fetch the latest index.html)
       - name: Invalidate CloudFront
-        uses: chetan/invalidate-cloudfront-action@v2
+        uses: chetan/invalidate-cloudfront-action@v1
         env:
           DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
           PATHS: "/index.html"
