@@ -24,14 +24,7 @@ jobs:
       # Install dependencies
       - name: Install dependencies
         run: npm install
-
-
-      # Cache node modules
-      - name: Cache node modules
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-      
+           
       # Build the static site
       - name: Create static build
         run: npm run build
