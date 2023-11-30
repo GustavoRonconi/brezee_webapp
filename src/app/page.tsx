@@ -13,7 +13,7 @@ export default function Home() {
                 <span key="1" className="text-primary">
                   preparando
                 </span>{" "}
-                uma experiência de moda{" "}
+                uma experiência em   moda{" "}
                 <span key="1" className="text-primary">
                   incrível
                 </span>{" "}
